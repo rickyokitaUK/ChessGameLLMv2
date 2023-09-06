@@ -1,0 +1,26 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Assembly-CSharp", "Assembly-CSharp.csproj", "{884E3A0E-5CBC-1011-58CF-D28576F5B685}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "com.gpt4all.unity", "com.gpt4all.unity.csproj", "{210D0145-4C49-FCE7-8999-CC16DEBA8B70}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{884E3A0E-5CBC-1011-58CF-D28576F5B685}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{884E3A0E-5CBC-1011-58CF-D28576F5B685}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{884E3A0E-5CBC-1011-58CF-D28576F5B685}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{884E3A0E-5CBC-1011-58CF-D28576F5B685}.Release|Any CPU.Build.0 = Release|Any CPU
+		{210D0145-4C49-FCE7-8999-CC16DEBA8B70}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{210D0145-4C49-FCE7-8999-CC16DEBA8B70}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{210D0145-4C49-FCE7-8999-CC16DEBA8B70}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{210D0145-4C49-FCE7-8999-CC16DEBA8B70}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
