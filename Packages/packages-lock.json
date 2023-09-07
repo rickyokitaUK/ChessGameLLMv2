@@ -1,10 +1,11 @@
 {
   "dependencies": {
     "com.gpt4all.unity": {
-      "version": "file:com.gpt4all.unity",
+      "version": "https://github.com/Macoron/gpt4all.unity.git?path=/Packages/com.gpt4all.unity",
       "depth": 0,
-      "source": "embedded",
-      "dependencies": {}
+      "source": "git",
+      "dependencies": {},
+      "hash": "40869a5bbc618f0298b0e9c68845f14da8ca1990"
     },
     "com.unity.collab-proxy": {
       "version": "1.15.4",

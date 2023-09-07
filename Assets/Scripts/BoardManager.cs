@@ -3,13 +3,8 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-using Gpt4All.Samples;
-
 public class BoardManager : MonoBehaviour
 {
-
-    public ChatSample LLMController;
-
     public static BoardManager Instance { get; set; }
     private bool[,] allowedMoves { get; set; }
 
@@ -50,12 +45,8 @@ public class BoardManager : MonoBehaviour
 
         if (Input.GetMouseButtonDown(0))
         {
-           // Debug.Log("Mouse Clicked");
-            Debug.Log("SelectionX : " + selectionX + " | SelectionY:" + selectionY);
-
             if (selectionX >= 0 && selectionY >= 0)
             {
-                //Debug.Log("SelectionX : " + selectionX + " | SelectionY:"+ selectionY);
                 if (selectedChessman == null)
                 {
                     // Select the chessman
@@ -118,16 +109,6 @@ public class BoardManager : MonoBehaviour
         {
             Chessman c = Chessmans[x, y];
             var victory = true;
-            
-            // call the LLM Controller to set the chess coordinate
-            if (c != null)
-            {
-                LLMController.GetChessCoordinate(c.isWhite, c.GetType(), x, y);
-            }
-            else //default pawn if not type is set
-            {
-                LLMController.GetChessCoordinate(true, typeof(Pawn), x, y);
-            }
 
             if (c != null && c.isWhite != isWhiteTurn)
             {
